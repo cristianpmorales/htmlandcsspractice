@@ -1,0 +1,140 @@
+/* hacks to keep photos and boxes aligned properly */
+
+*{
+  box-sizing: border-box;
+}
+.clearfix {
+ overflow: auto;
+}
+/* hacks to keep photos and boxes aligned properly */
+
+/* all font will be Lucida */
+*{
+  font-family:  "Roboto",sans-serif,Times new roman;
+  font-weight: 100;
+}
+nav{
+  display: inline-block;
+  float: left;
+  margin-bottom: 20px;
+}
+ul{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+li{
+  float:left;
+  padding: 0 5px;
+}
+
+.containerOne{
+  width: 100%;
+  background-color: #616D7E;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.containerOne img{
+  display: inline;
+  text-align: center;
+  width: 5%;
+  height: 30px;
+}
+.containerOne span a{
+  float: right;
+}
+.containerOne h1{
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+.containerOne p{
+  font-size: 16px;
+  font-weight: 200;
+  margin: 0 5% 0 5%;
+  color: white;
+}
+.containerOne section{
+  display: inline;
+  margin-bottom: 25px;
+}
+.containerTwo{
+  padding: 15px 5% 15px 5%;
+  text-align: center;
+}
+.containerThree{
+  width: 100%;
+  background-color: #E5E4E2;
+}
+.containerBoxleft,.containerBoxRight{
+  width: 40%;
+  margin: 5px 5% 5px 5%;
+  float: left;
+}
+.containerBoxleft h3,.containerBoxRight h3{
+  text-align: center;
+}
+.containerBoxleft section, .containerBoxRight section{
+  height: 200px;
+  width: 100%;
+  background-color: #616D7E;
+  float: left;
+}
+.containerBoxleft a, .containerBoxRight a{
+  border: 2px solid buttonshadow;
+  padding: 5px 5% 5px 5%;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  color: #616D7E;
+  margin-left: 35%;
+}
+.containerFour{
+  padding: 25px 10% 25px 10%;
+  margin: 50px 0 50px 0;
+  text-align: center;
+}
+footer{
+  clear: both;
+  background-color: #151B54;
+}
+.socialIcons{
+  color: white;
+  height: 25px;
+  margin-left: 5%
+}
+.links{
+  float: left;
+  margin-left: 5%
+}
+.links p{
+  display: inline;
+  color: white;
+}
+.links h4,.address h4{
+  font-weight: 200;
+  color: white;
+}
+.address{
+  float: right;
+  color: white;
+  margin-right: 5%;
+}
+
+@media only screen and (max-width:800px){
+
+.containerBoxleft,.containerBoxRight{
+    width: 100%;
+    /* margin: 5px 5% 5px 5%; */
+    float: left;
+    display: inline-block;
+  }
+  footer{
+    display: inline-block;
+  }
+  .address{
+    float: left;
+    display: inline-block;
+    margin-left: 5%;
+  }
+}

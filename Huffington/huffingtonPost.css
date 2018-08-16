@@ -1,0 +1,254 @@
+/* hacks used to organize boxes and photos. Font was change to Luicida to the whole page */
+*{
+  box-sizing: border-box;
+}
+*{
+  font-family: Lucida;
+}
+
+.clearfix {
+ overflow: auto;
+}
+
+/* styling for the header section */
+header section{
+  height:100px;
+  background-color: #2e7061;
+  padding:0;
+  margin: 0;
+  float: left;
+  font-style: normal;
+  font-size: xx-large;
+  color:white;
+}
+header> section{
+  width:20%;
+  float:left;
+  border-right: 1px solid white;
+}
+header section+section{
+  float: left;
+  width:60%;
+  text-align: center;
+}
+header section+section+section{
+  width: 20%;
+  border-left: 1px solid white;
+}
+/* header style ends here  */
+/* Navigation bar for choosing new links */
+nav{
+  display: inline-block;
+  height: 50px;
+  /* border:1px solid purple; */
+}
+ul{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+li{
+  float:left;
+  padding:0px 30px;
+   font-weight: bold;
+   font-size: large;
+}
+/* navigation bar section ends here */
+/* main section begins here */
+body>section{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+  font-size: 55px;
+  text-align: center;
+  float: left;
+  margin-top: 30px;
+}
+.containerImages{
+  width:100%;
+  padding-left: 15%;
+  padding-right:15%;
+  float: left;
+}
+.containerImages section{
+    width: 32.33333%;
+    margin-right: 1%;
+    float: left;
+}
+.containerImages img{
+  height: 350px;
+  width: 100%;
+  float:left;
+}
+.containerImageMenu section{
+  display: inline-block;
+  height:175px;
+  width:20%;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-right: 1%;
+  border-top: 2px solid #2e7061;
+  font-size: 14px;
+  font-weight: bold;
+}
+.containerImageMenu img{
+  height:100px;
+  width:100%;
+  padding: 0;
+}
+
+@media only screen and (min-width:810px) and (max-width:975px) {
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
+  header> section{
+    width: 0;
+  }
+  header section+section{
+    width:100%;
+    margin-top: -100px;
+  }
+  header section+section+section{
+    width: 0;
+  }
+  nav {
+   display: inline-block;
+   height: 25px;
+  }
+  li{
+    float:left;
+    padding:0px 37px;
+  }
+  body>section{
+    font-size: 32px;
+  }
+  .containerImages{
+    width:100%;
+    padding:0;
+    float: left;
+  }
+  body>section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .containerImageMenu section{
+    display: inline-block;
+    width: 20%;
+    margin-right: 1%;
+    /* border-top: 2px solid #2e7061; */
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width:750px) and (max-width:809px) {
+  header> section{
+    width: 0;
+  }
+  header section+section{
+    width:100%;
+    margin-top: -100px;
+  }
+  header section+section+section{
+    width: 0;
+  }
+
+  nav {
+    display: inline;
+  }
+  ul {
+    padding: 5px;
+  }
+  body>section{
+    padding-left: 10%;
+    font-size: 28px;
+  }
+  .containerImages img{
+    height: 250px;
+  }
+  .containerImageMenu section{
+    display: inline-block;
+    width: 20%;
+    margin-right: 5%;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+@media only screen and (min-width:500px) and (max-width:749px) {
+  header> section{
+    width: 0;
+  }
+  header section+section{
+    width:100%;
+    margin-top: -100px;
+
+  }
+  header section+section+section{
+    width: 0;
+  }
+  nav{
+    clear: both;
+    display: block;
+    background-color: black;
+    width:50%;
+    height:50px;
+  }
+  ul,li{
+    display: none;
+  }
+  body>section{
+    padding-left: 10%;
+    font-size: 18px;
+  }
+  .containerImages img{
+    height: 150px;
+  }
+  .containerImageMenu section{
+    display: inline-block;
+    width: 20%;
+    margin-right: 5%;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width:499px) {
+  header> section{
+    width: 0;
+    font-size: 26px;
+  }
+  header section+section{
+    clear: both;
+    width:100%;
+    height: 100px;
+    margin-top: -100px;
+  }
+  header section+section+section{
+    width: 0;
+  }
+  nav{
+    clear: both;
+    display: block;
+    background-color: black;
+    width:75%;
+    height:75px;
+  }
+  ul,li{
+    display: none;
+  }
+  body>section{
+    padding-left: 5%;
+    font-size: 14px;
+  }
+  .containerImages img{
+    height: 150px;
+  }
+  .containerImageMenu section{
+    display: inline-block;
+    width: 35%;
+    margin-right: 1%;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}

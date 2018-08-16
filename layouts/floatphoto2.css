@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  height: 100px;
+  border: 1px solid green;
+}
+section{
+  height: 100px;
+  width: 100%;
+  border: 1px solid blue;
+  float: left;
+}
+.box150{
+  height: 150px;
+  border: 1px solid black;
+}
+.leftbottom{
+  width: 40%;
+  float: left;
+}
+.rightbottom{
+  width: 60%;
+  float: right;
+}
+
+footer{
+  height: 100px;
+  border: 1px solid red;
+  clear: both;
+}

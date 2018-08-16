@@ -1,0 +1,69 @@
+*{
+  box-sizing: border-box;
+}
+.clearfix {
+  overflow: auto;
+}
+/* Header section starts here */
+header{
+  height: 50px;
+  background: black;
+  /* border: 1px solid black; */
+}
+img{
+  height: 40px;
+  width: 5%;
+  margin-left: 7%;
+}
+nav{
+  float: right;
+  margin-top: 10px;
+  margin-right: 8%;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li{
+  float:left;
+  padding: 5px 10px;
+  color: white;
+}
+/* Header sections ends here */
+/* Main Image section begins here */
+.containerMainImage{
+  height: 350px;
+  border: 1px solid black;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Ellen_Pao_2015.jpg/1200px-Ellen_Pao_2015.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+}
+.containerMainImage section{
+  height:75px;
+  width:45%;
+  position: relative;
+  top:250px;
+  right:40%;
+  bottom:0;
+  left:10%;
+  background: whitesmoke;
+}
+.containerMainImage h1{
+  margin: 0;
+}
+/* Main Image section begins ends here */
+.containerBottomImage{
+  height: 175px;
+  border: 1px solid black;
+}
+.containerBottomImage section{
+  height: 100px;
+  width: 40%;
+  margin-top:10px;
+}
+.containerBottomImage img{
+  float: left;
+  height: 90px;
+  width: 30%;
+}

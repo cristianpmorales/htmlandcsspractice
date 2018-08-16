@@ -1,0 +1,519 @@
+*{
+  box-sizing: border-box;
+}
+
+h2,h3,h4{
+  color: #c41200
+}
+*{
+  font-family: helvetica;
+}
+}
+.clearfix {
+ overflow: auto;
+}
+/* style for main Hero starts here */
+
+main {
+  height: 350px;
+  border:1px solid black;
+  padding-left: 25%;
+  padding-right: 25%;
+  background-image: url("https://s3-media3.fl.yelpcdn.com/assets/srv0/yelp_large_assets/65e6a224ada4/assets/img/home/hero_photos/cz8iYo13MpBBGlFLlkA8Sw.jpg");
+  background-size: cover;
+
+}
+/* section{
+  height: 50px;
+  width: 100%;
+  margin-top: 15px;
+} */
+nav{
+  display: inline-block;
+  height: 50px;
+  /* margin-left: 20px; */
+}
+nav + nav{
+  float: right;
+}
+ul{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+li{
+  float:left;
+  padding:0px 5px;
+  color: white;
+}
+
+.yelpLogo{
+  margin:25px 0 50px 15%;
+}
+img{
+  margin-left: 25%;
+  height: 70px;
+  width:25%
+}
+span{
+  background-color: white;
+  float:left;
+}
+.searchBar{
+  width:50%;
+  float: left;
+
+}
+
+
+.userOptions{
+  margin-top: -55px;
+}
+.userOptions nav{
+  margin-left: 15%;
+}
+.photoBy{
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Main Hero styling ends here  */
+
+.findBusiness{
+  /* height: 200px; */
+  width: 100%;
+  display: block;
+  padding-left: 25%;
+  background-color: whitesmoke;
+  float: left;
+}
+.findBusiness section{
+  width: 15%;
+  height: 125px;
+  margin-right: 2%;
+  margin-top: -10px;
+  float: left;
+  text-align: center;
+}
+
+.findBusiness img{
+  height: 100px;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+/* this style is used to change the padding of the whole page */
+.containerHeader,.containerHotNewBusiness,.containerLocalSpotlight,.containerReview,.containerRecentActivity,.containerRecentActivity,footer{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  float: left;
+  /* border:1px solid black; */
+}
+/* this style is used to change the padding of the whole page */
+
+
+.containerHeader{
+  height: 75px;
+  text-align: center;
+}
+.containerHeader nav{
+  margin-top: -25px;
+
+}
+.containerHeader li{
+  color: black;
+}
+
+.containerHotNewBusiness{
+  height: 225px;
+  text-align: center;
+}
+
+.containerHotNewBusiness section{
+  height:200px;
+  width:30%;
+  margin-right: 3%;
+  float: left;
+  border: 1px solid gray;
+}
+.containerHotNewBusiness img{
+  height:100px;
+  width:100%;
+  margin:0;
+}
+.containerHotNewBusiness ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.containerHotNewBusiness li{
+  padding:0 20px;
+  color:black;
+}
+
+.containerLocalSpotlight{
+  height:225px;
+  margin-bottom: 75px;
+}
+
+.containerLocalSpotlight section, .containerLocalSpotlight section+section{
+  height:225px;
+  border: 1px solid gray;
+  float: left;
+  margin-right: 1%;
+}
+.containerLocalSpotlight section{
+  width: 55%;
+  font-size: small;
+}
+.containerLocalSpotlight section h4{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.containerLocalSpotlight section+section{
+  width:40%;
+  font-size: small;
+}
+.containerLocalSpotlight section img{
+  height:75px;
+  width: 100%;
+  margin: 0;
+  padding:0;
+}
+.containerLocalSpotlight section+section img{
+  height: 75px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.containerLocalSpotlight section+section h4{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.containerReview{
+  height: 250px;
+  margin-bottom: 50px;
+}
+.containerMainReview, .containerMainReview section{
+  height: 250px;
+  width: 65%;
+  border: 1px solid black;
+  margin-right: 5%;
+  float: left;
+}
+.containerMainReview h4{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.containerMainReview section{
+  width: 100%;
+  float: left;
+}
+.containerMainReview img{
+  height: 25px;
+  width: 10%;
+  float: left;
+  margin: 0;
+  padding: 0;
+
+}
+.containerRecentList{
+  height: 250px;
+  width: 30%;
+  border: 1px solid black;
+  float: left;
+  margin: 0;
+}
+.containerRecentList section{
+  height: 83px;
+  width: 100%;
+  border: 1px solid black;
+  float: left;
+  margin: 0;
+  font-size: small;
+}
+.containerRecentList h4{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.containerRecentList section img{
+  height:25px;
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.containerRecentActivity
+{
+  height: 850px;
+  clear: both;
+}
+.columnOne,.columnTwo,.columnThree{
+  height: 850px;
+  width: 33.3333%;
+  /* border: 1px solid black; */
+  float: left;
+  margin: 0;
+}
+.columnOne section,.columnTwo section,.columnThree section{
+  height: 200px;
+  width: 90%;
+  border: 1px solid black;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 7px;
+  font-size: x-small;
+}
+
+.columnOne img,.columnTwo img,.columnThree img{
+  height: 85px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.containerBrowseBy{
+  /* height: 250px; */
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
+  background-color: whitesmoke;
+  float: left;
+}
+.containerBrowseBy h4,.mobileApp h4{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: -5%;
+  padding: 0;
+}
+.containerBrowseBy section{
+  width: 20%;
+  height: 75px;
+  margin-right: 5%;
+  margin-top: 10px;
+  padding: 15px 15px 15px 15px;
+  float: left;
+  text-align: center;
+  background-color: white;
+  /* border: 1px solid black; */
+}
+.containerBrowseBy img{
+  height: 25px;
+  width: 75%;
+  margin:0;
+  padding:0;
+}
+.mobileApp{
+  height: 250px;
+  width:100%;
+  padding-left: 25%;
+  padding-right: 25%;
+  /* border: 1px solid black; */
+  float: left;
+}
+.mobileApp section, .mobileApp section{
+  height: 150px;
+  width:45%;
+  margin-right: 5%;
+  border: 1px solid gray;
+  float: left;
+  text-align: center;
+}
+.mobileApp section img{
+  height:100px;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+footer{
+  margin: 0;
+  background-color: whitesmoke;
+  width: 100%;
+
+}
+
+footer section{
+  width:10%;
+  float: left;
+  margin: 10px -9% 10px 15%;
+}
+footer section li{
+  color: black;
+  font-size: small;
+  text-decoration: none;
+}
+
+@media only screen and (min-width:600px) and (max-width:1250px){
+
+  main {
+    padding: 0;
+  }
+  .searchBar{
+    margin-left: 10%;
+  }
+
+  .containerHeader,.containerHotNewBusiness,.containerLocalSpotlight,.containerReview,.containerRecentActivity,.containerRecentActivity,footer{
+    width: 100%;
+    margin: 0;
+    float: left;
+    margin: 0 5% 25px;
+  }
+  .containerHotNewBusiness section {
+    width: 25%;
+    margin-right: 4%;
+    margin-left: 4%;
+  }
+
+  .containerBrowseBy {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.containerBrowseBy section {
+    width: 40%;
+    height: 80px;
+    margin-right: 10%;
+  }
+  .mobileApp {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media only screen and (max-width:599px){
+  .containerHeader,.containerHotNewBusiness,.containerLocalSpotlight,.containerReview,.containerRecentActivity,.containerRecentActivity,footer{
+    width: 100%;
+    margin: 0;
+    float: left;
+    margin: 0 5% 25px;
+  }
+
+  main {
+    padding: 0;
+    width: 100%;
+  }
+  .searchBar{
+    display: inline;
+    float: left;
+    width:180px;
+  }
+  body main section{
+    float: left;
+    width:100%;
+  }
+  form{
+    width: 50%;
+    float: left;
+  }
+  input{
+    width: 80%;
+  }
+  span{
+    background-color: white;
+    float:left;
+  }
+  ul{
+    padding: 5px;
+  }
+  li{
+    font-size: small;
+  }
+  .userOptions {
+    margin-top: 5px;
+}
+.photoBy{
+  margin-top: 5px;
+}
+.findBusiness{
+  padding-left: 3%;
+  display: inline-block;
+}
+.findBusiness section {
+    width: 35%;
+    margin-bottom: 5px;
+  }
+  .containerHeader{
+    margin: 0px;
+    height:175px;
+  }
+  .containerHeader nav{
+    margin-top: -10px;
+    display: inline-block;
+    height: 25px;
+
+  }
+  .containerHeader ul{
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+
+  }
+  .containerHeader li{
+    float: left;
+    padding:0px 34px;
+  }
+  .containerHotNewBusines{
+    margin-left: 0;
+    display: inline-block;
+  }
+  .containerHotNewBusiness section {
+    width: 47%;
+    width: 30%;
+    margin-right: 1%;
+    float: left;
+    border: none;
+    height:100px;
+  }
+  .containerHotNewBusiness li {
+    display: none;
+  }
+  .containerLocalSpotlight p+p{
+    display: none;
+  }
+  .containerRecentActivity{
+    margin-top: 35px;
+  }
+  .columnOne, .columnTwo{
+    width: 50%;
+  }
+
+  .columnThree{
+    display: none;
+  }
+  .containerBrowseBy {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.containerBrowseBy section {
+    width: 40%;
+    height: 85px;
+    margin-right: 1%;
+  }
+  .mobileApp {
+    padding-left: 1%;
+    padding-right: 1%;
+    border: none;
+    height:400px;
+  }
+  .mobileApp section, .mobileApp section {
+    height: 150px;
+    width: 100%;
+  }
+  footer{
+    clear: both;
+    margin: 0;
+  }
+  footer section{
+    width: 50%;    }
+  }
+
+  footer section li {
+
+    padding: 0 12%;
+}
+}

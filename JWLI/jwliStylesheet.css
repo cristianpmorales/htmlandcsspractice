@@ -1,0 +1,305 @@
+/* hacks to keep photos and boxes aligned properly */
+
+*{
+  box-sizing: border-box;
+}
+.clearfix {
+ overflow: auto;
+}
+/* hacks to keep photos and boxes aligned properly */
+
+/* all font will be Lucida */
+*{
+  font-family: Times new roman;
+  color: #848482;
+  font-weight: 100;
+}
+
+
+img{
+  margin: 0;
+  padding:0;
+  float: left;
+}
+nav{
+  display: inline-block;
+  float: left;
+  margin-bottom: 20px;
+}
+ul{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+li{
+  float:left;
+  padding: 0 55px;
+}
+}
+li a{
+  border: 1px solid black;
+  height: 25px;
+  width: 110%;
+  background: black;
+}
+.containerDescription{
+  background-color: #E5E4E2;
+  width: 100%;
+  float: left;
+}
+.descriptionJWLI{
+  height: 450px;
+  width:60%;
+  float: left;
+  /* border: 1px solid black; */
+}
+form {
+   width:500px;
+   margin:50px 0 50px 0;
+   padding-left: 5%;
+}
+
+
+.descriptionJWLI img{
+  height: 75px;
+  width: 25%;
+  margin: 25px 50% 50px 30%;
+}
+.descriptionJWLI h1,h4,.containerPoints h1,h4{
+  font-size: x-large;
+  font-weight: bold;
+  margin: 20px 20% 0 5%;
+}
+ .containerPoints p{
+  font-size: 20px;
+}
+.containerImage img{
+  height: 233px;
+  width: 20%;
+  margin: 100px 10% 0 10%;
+  float: left;
+}
+.containerPoints h1{
+  text-align: center;
+  padding: 0 20% 0 20%;
+  float: left;
+  margin: 40px 0;
+}
+.containerPoints section, .containerPoints section{
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+.containerPoints span{
+  font-weight: bold;
+}
+.containerPoints .changeFont{
+  font-style: italic;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 70px;
+  clear: both;
+}
+.containerHistory{
+  background-color: #E5E4E2;
+  width: 100%;
+  float: left;
+  margin-bottom: 50px;
+}
+.containerHistory h2{
+  padding-left: 5%;
+  font-weight: bold;
+}
+.containerHistory p{
+  width: 60%;
+  float: left;
+  font-size: 18px;
+  padding: 0 5% 10px 5%;
+  margin: 0;
+}
+.containerHistory img{
+  width: 35%;
+  height: 200px;
+  margin-bottom: 15px;
+  margin-right: 5%;
+  padding-bottom: 50px;
+  float: right;
+}
+
+
+.containerWhoweare {
+  padding: 0 5% 0 5%;
+}
+.containerWhoweare img{
+  width: 20%;
+  height: 250px;
+  margin: 15px 2% 10px 5%;
+}
+.containerWhoweare h2{
+  text-align: center;
+}
+.containerWhoweare section{
+  width: 100%;
+  border: 1px solid gray;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.containerWhoweare p {
+  font-size: 16px;
+}
+.containerWhoweare .containerFishFamily, .containerWhoweare .containerSimmons {
+  width: 50%;
+  border: none;
+}
+.containerSimmons img{
+  width: 15%;
+  height: 40px;
+  margin: 5px 85% 10px 0px;
+}
+.subscriptionSection{
+  width: 100%;
+  float: left;
+  background-color: #E5E4E2;
+}
+.subscriptionSection h2, .subscriptionSection form{
+  display: inline-block;
+  margin-left: 15%;
+}
+footer{
+  padding: 0 7% 0 7%;
+  clear: both;
+  width: 100%;
+  /* height: 200px; */
+  background-color: #2C3539;
+}
+footer section{
+  border-bottom: 1px solid white;
+}
+footer p{
+  display: inline-block;
+  color: white;
+}
+footer section nav{
+  float: right;
+  padding: 0;
+}
+footer section li{
+  color: white;
+}
+
+@media only screen and (min-width:979px) and (max-width:1300px){
+
+  li{
+    float:left;
+    padding: 0 33px;
+}
+}
+@media only screen and (min-width:825px) and (max-width:978px){
+  li{
+    float:left;
+    padding: 0 25px;
+}
+.containerHistory img{
+  width: 40%;
+  height: 200px;
+  margin: 0;
+  padding-bottom: 0;
+  float: right;
+}
+}
+@media only screen and (min-width:650px) and (max-width:824px){
+  li{
+    float:left;
+    padding: 0 12px;
+}
+.containerHistory img{
+  height: 250px;
+  width: 50%;
+  margin: 10px 10% 10px 10%;
+  float: left;
+  display: inline-block;
+}
+.containerHistory p{
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  padding: 0 5% 10px 5%;
+  margin: 0;
+}
+
+}
+@media only screen and (max-width:650px){
+  *{
+    width:100%;
+  }
+  form {
+     width:300px;
+     margin:50px 0 50px 0;
+     padding-left: 5%;
+  }
+  nav{
+    display: block;
+    background-color: #848482;
+    height: 50px;
+    width: 50%;
+    float: left;
+  }
+  li{
+    display: none;
+}
+.descriptionJWLI img{
+  height: 50px;
+  width: 25%;
+  margin: 0 50% 0 20%;
+  float: left;
+}
+.descriptionJWLI h1,h4,.containerPoints h1,h4{
+  font-size: large;
+  font-weight: normal;
+  width: 100%
+}
+.containerImage img{
+  display: none;
+}
+.containerPoints section, .containerPoints section{
+  width: 100%;
+  float: left;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+
+
+.containerHistory img{
+  width: 60%;
+  height: 200px;
+  margin: 10px 15% 10px 15%;
+  padding-bottom: 0;
+  float: left;
+  display: inline-block;
+}
+.containerHistory p{
+  width: 100%;
+}
+.containerWhoweare img{
+  width: 40%;
+  height: 200px;
+  margin: 15px 2% 10px 5%;
+}
+.containerWhoweare section{
+  width: 100%;
+  border: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.containerSimmons img{
+  width: 15%;
+  height: 40px;
+  margin: 5px 85% 10px 0px;
+}
+
+}

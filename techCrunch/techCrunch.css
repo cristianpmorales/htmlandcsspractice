@@ -1,0 +1,190 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  height: 100px;
+  /* border: 1px solid black; */
+}
+
+.headerNavigator{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.headerNavigator > li{
+  float:left;
+  padding: 0px 10px;
+}
+.lavenderFont{
+  float: left;
+  color: lavender;
+  margin-left: 200px;
+}
+.darkgreenFont{
+  color: darkgreen;
+}
+.linkFollow{
+  float: right;
+  color: lavender;
+  margin-top: 10px;
+}
+.headSocialLinks
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.headSocialLinks >li{
+  float:right;
+  padding: 0px 10px;
+}
+.messageButton{
+  float: right;
+}
+.headerSearch{
+  float: right;
+}
+.mainLogo{
+  float: left;
+  position: absolute;
+  margin-left: 50px;
+}
+
+.headerNavigator > li{
+  float: left;
+  padding: 0px 10px;
+  color:red;
+}
+/*greenBar style starts here*/
+/* .boldAnnouncement{
+  float: left;
+  font: tahoma;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 400px;
+} */
+/* .Announcement{
+  float: left;
+  font: tahoma;
+  font-style: normal;
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  /* margin-left: 400px;*/
+/* Heading section ends here*/
+.greenBar{
+  height: 30px;
+  width: 100%;
+  /* border: 1px solid green; */
+  background-color: darkgreen;
+}
+/* greenBar section ends here*/
+
+.containerMain{
+  height: 500px;
+  width: 60%;
+  /* border: 1px solid blue; */
+  float:left;
+}
+.watchNow,.crunchReport {
+  margin: 0;
+  display: inline-block;
+  font:tahoma;
+}
+.watchNow{
+  color: darkolivegreen;
+}
+.crunchReport{
+  color:green;
+  padding: 5px;
+}
+
+/* Heading section ends here*/
+
+/* containerMain section ends here */
+
+
+.containerWatchNow{
+  height: 85px;
+  /* border: 1px solid blue; */
+  width: 65%;
+  margin-top: 30px;
+  float left;
+}
+.containerVideo{
+  height: 350px;
+  /* border: 1px solid green; */
+  width: 65%;
+  float: left;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.containerVideo{
+  background-image: url("https://www.thecomedynetwork.ca/getattachment/3e08863d-32b8-4e05-8c37-b4488a382b2a/blogs/2016/03/People-Are-Trolling-News-Stations-With-Simpsons-Sc?height=349&width=620&crop=True");
+   background-size: cover;
+   background-size: 100% 100%;
+}
+
+
+
+.containerFeatureStories{
+  height: 85px;
+  /* border: 1px solid blue; */
+  width: 33%;
+  float: right;
+  margin-left: 750px;
+  margin-top: -80px;
+  margin-right: 5px;
+}
+.containerLinkMenu{
+  height: 350px;
+  /* border: 1px solid blue; */
+  width: 33%;
+  float: right;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.linkOption{
+  height:116px;
+  width:100%;
+  /* border: 1px solid blue; */
+  /* float: left; */
+}
+.containerSendTips{
+  position: relative;
+  float:right;
+  height: 500px;
+  width: 40%;
+  /* border: 1px solid blue; */
+  background-color: whitesmoke;
+}
+
+.newsLetterHeader{
+  height: 35px;
+  width: 75%;
+  margin-left: 55px;
+  margin-right:20px;
+  margin-top: 90px;
+  background-color: darkgreen;
+  float: right;
+}
+
+.subscriptionOptions{
+  height: 330px;
+  width: 75%;
+  margin-left: 55px;
+  margin-right:20px;
+  /* margin-top: 40px; */
+  float: right;
+  /* border: 1px solid black; */
+}
+.subscriptionOptionChoices{
+  height:110px;
+  width:75%;
+  /* border: 1px solid blue; */
+  margin-left: 55px;
+  margin-right:20px;
+  float: right;
+}

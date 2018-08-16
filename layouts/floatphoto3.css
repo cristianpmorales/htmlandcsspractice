@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+header, footer{
+    height: 100px;
+}
+header{
+  border: 1px solid green;
+}
+section,.center{
+    height: 175px;
+    float: left;
+}
+section{
+  width: 20%;
+  border: 1px solid blue;
+}
+.center{
+  height: 175px;
+  width: 40%;
+  border: 1px solid black;
+}
+footer{
+  border: 1px solid red;
+  clear: both;
+}

@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+
+header{
+  height: 75px;
+  background-color: #3b5998;
+}
+header>h1{
+  font-family: tahoma;
+  color:white;
+}
+.mainCenter{
+  height: 500px;
+  background-color: #dfe3ee;
+}
+footer{
+  height: 100px;
+}
+nav{
+  float:right;
+  margin-top: -50px;
+  margin-right: 10%;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+}
+li{
+  float: left;
+  padding: 0px 10px;
+  color: white;
+}
+.mainCenter section{
+  height: 500px;
+  width:50%;
+  /* border: 1px solid black; */
+  float:left;
+}
+.mainCenter .textBox{
+  height: 400px;
+  width:90%;
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  margin-left: 15%;
+}
+.textBox h1,h2,h3,h4,p,span{
+  font-family: tahoma;
+}
+.textBox h2{
+    font-size: 24px;
+}
+.textBox p{
+  font-weight: bold;
+}
+.textBox span{
+  font-weight: normal;
+}
+.textBox nav{
+  margin-top: 40px;
+  margin-right:35%;
+  margin-bottom: 5px;
+}
+.credentialsInput{
+  padding:0;
+  /* margin: 10px 10px 10px 10px; */
+  margin-top: 5px;
+  margin-left: 2%;
+}
+.birthday {
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
